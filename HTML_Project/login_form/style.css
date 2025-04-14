@@ -1,0 +1,94 @@
+body{
+  background: white url("img/log.jpg") no-repeat scroll top left;
+ 
+  /* background-image: linear-gradient(to right,#15c4a7, #3a9fed ); */
+   /*display: grid;
+  grid-template-columns: repeat(10,2fr); 
+   justify-content: center;
+  align-items: center; */
+
+}
+.login{
+  /* border: 2px solid black; */
+  width: 250px;
+  text-align: center;
+  margin: 250px auto;
+  background-color: rgba(25, 0, 0,0.5);
+  border-radius: 20px;
+  box-shadow: 0 0 20px #368bf8;
+  /* padding: auto; */
+  /* height: 300px; 
+  justify-content: center;
+  align-items: center;*/
+}
+
+.login img{
+  width: 100px;
+  margin-top: -50px;
+  /* padding: 50px; */
+
+}
+
+.login h2{
+  color: white;
+  margin-top: 5px;
+}
+.login input{
+text-align: center;
+border: none;
+outline: none;
+font-size: 16px;
+width: 200px;
+height: 30px;
+background: transparent;
+color: white;
+border-bottom: 2px solid gray ;
+}
+
+::placeholder{
+  color: lightskyblue;
+}
+
+input:focus{
+  /* box-shadow: 0 0 20px #368bf8; */
+  border-bottom: 5px solid #368bf8  ;
+}
+
+/* input[type='submit']{
+  background-color: #368bf8;
+  color: white;
+
+} */
+ .login button{
+  background-color: #368bf8;
+  color: white;
+  border:none;
+  font-size: 18px;
+  margin: 15px;
+  padding: 10px 30px;
+  border-radius: 20px;
+ }
+
+ button:hover{
+  background-color: #350005 ;
+  box-shadow: 0 0 15px white;
+
+ }
+
+ .child{
+
+  display: flex;
+    justify-content: space-between;
+    padding: 20px;
+ }
+ /* .child2{
+
+  display: flex;
+    justify-content: flex-end;
+    padding: 10px;
+ } */
+ .child a{
+   color: white;
+ }
+ 
+ 

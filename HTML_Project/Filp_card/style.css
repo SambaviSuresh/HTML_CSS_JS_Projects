@@ -1,0 +1,43 @@
+.main{
+    width: 300px;
+    height: 200px;
+    border: 2px solid green;
+    background-color: greenyellow;
+    perspective: 1000px;
+
+}
+
+.main_inside{
+    position: relative;
+    width: 100%;
+    height: 100%;
+    transition:transform 1s;
+    transform-style: preserve-3d;
+    color:black;
+}
+
+.main:hover .main_inside{
+    transform:rotateY(180deg);
+}
+ /* .image:hover .image_inside{
+    transform:rotateY(180deg);
+}  */
+ 
+.front,.back{
+    position:absolute;
+    width: 100%;
+    height: 100%;
+    backface-visibility: hidden;
+    -webkit-backface-visibility: hidden;
+}
+.front{
+    background-color: pink;
+}
+.back{
+    background-color: aquamarine;
+    transform: rotateY(180deg);
+}
+.back> button{
+    background-color: pink;
+    color:white;
+}

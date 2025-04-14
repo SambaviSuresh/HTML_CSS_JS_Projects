@@ -1,0 +1,93 @@
+body{
+    background: white;
+     background: white url("samples/bg2.webp") no-repeat scroll top left; 
+}
+/* header{
+
+} */
+
+.profile{
+    background: red;
+    color:#cfbda5;
+    font-size: 18px;
+    border: none;
+    border-radius: 20px;
+    padding: 5px ;
+    text-align:start;   
+}
+.button0{
+   border-radius: 0;
+}
+.button2{
+background-color: #cfbda5;
+color: red;
+transform-style: preserve-3d;
+transition: transform 2s;
+position: relative;
+
+}
+.button2:hover .card{
+    transform: rotateY(180deg);
+}
+.card{
+    width: 500px;
+    height: 300px;
+    color: #cfbda5;
+    text-align: center;
+    margin:100px auto;
+    position: relative;
+    /* margin: 100px 700px auto;  */
+    border: 2px solid black;
+    box-shadow: 0 5px 5px red;
+    /* padding-bottom: 0px; */
+    /* background-color: rgba(52, 48, 48,0.5); */
+
+}
+
+.child{
+    padding: 0px;
+}
+.child h3{
+    font-size: 26px;
+    margin: 0%;
+    /* margin-top: 0px; */
+}
+.child h2{
+    font-size: 36px;
+    margin: 0%;
+    /* padding-bottom: 0px; */
+
+}
+.child img{
+    width: 100px;
+    border-radius: 50%;
+    margin-top: 10px;   
+}
+
+.child1{
+    background-color:#cfbda5;  
+
+}
+.follows{
+    width: 300px;
+    border: 2px solid black;
+    border-radius: 10px;
+    box-shadow: 0 5px 3px red;
+    color:#cfbda5;
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+    text-align: center;
+    /* margin: 100px 700px auto;  */
+    margin:100px auto;
+    padding-right: 20px;
+    padding-left: 20px;
+    padding-top: 0px;
+    
+   /* margin: auto; */
+      justify-content:space-between;
+    /* align-items: center; */ 
+
+
+}
+
